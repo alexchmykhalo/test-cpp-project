@@ -1,4 +1,7 @@
 sudo: false
 
 script:
-  - echo hello!
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make

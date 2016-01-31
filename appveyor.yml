@@ -1,0 +1,20 @@
+version: 1.0.{build}
+pull_requests:
+  do_not_increment_build_number: true
+branches:
+  only:
+  - master
+os: Visual Studio 2015
+clone_depth: 50
+before_build:
+- cmd: >-
+    mkdir build
+
+    cd build
+
+    cmake ..
+
+    cd ..
+
+build:
+  verbosity: normal

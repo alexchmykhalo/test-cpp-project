@@ -14,5 +14,9 @@ before_build:
 
     cmake ..
 
+    dir
+
+    cd ..
+
 build:
   verbosity: normal

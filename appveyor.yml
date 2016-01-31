@@ -16,4 +16,8 @@ build_script:
 
     cmake ..
 
+    dir
+
+    dir ..
+
     nmake
